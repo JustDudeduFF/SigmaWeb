@@ -756,10 +756,10 @@ content: "";
 
 @media  screen and (max-width:600px) {
     .navbar{
-        width: 400px;
+        width: 100%;
     }
     .main{
-        width: 400px;
+        width: 100%;
     }
 
     .menu-option ul{
@@ -810,7 +810,7 @@ content: "";
 
     .content p{
     
-        width: 400px;
+        width: 350px;
     }
 
     .contains-plan{
@@ -818,8 +818,9 @@ content: "";
     }
 
     .contains-plan div {
+        margin-right: 10px;
         width: 400px;
-        margin-right: 20px;
+        
     }
 
     
@@ -842,7 +843,7 @@ content: "";
     }
 
     .facility-main div{
-        margin-right: 10px;
+        
         width: auto;
         height: max-content;
         flex-direction: column;
@@ -910,17 +911,12 @@ content: "";
 
     }
 
-    .contactus div button{
-        width: 350px;
-    }
-
     .contactus div h1{
         text-align: left;
     }
 
-    .contact-form input{
-        margin-left: 0;
-        left: 0;
+    .contactus div button{
+        width: 350px;
     }
 
     .contact-animation div{
@@ -936,6 +932,11 @@ content: "";
     .contact-animation p{
         width: 400px;
         height: max-content;
+    }
+
+    .contact-form input{
+        margin-left: 0;
+        left: 0;
     }
 
     .footer-main-div{
