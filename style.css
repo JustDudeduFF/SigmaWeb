@@ -756,10 +756,10 @@ content: "";
 
 @media  screen and (max-width:700px) {
     .navbar{
-        width: 600px;
+        width: 400px;
     }
     .main{
-        width: 600px;
+        width: 400px;
     }
 
     .menu-option ul{
@@ -779,7 +779,7 @@ content: "";
         height: fit-content;
         display: flex;
         flex-direction: column;
-        width: 600px;
+        width: 450px;
     }
 
     .aboutus h3{
@@ -810,7 +810,7 @@ content: "";
 
     .content p{
     
-        width: 600px;
+        width: 400px;
     }
 
     .contains-plan{
@@ -836,7 +836,7 @@ content: "";
     }
 
     .facility-main{
-        width: 600px;
+        width: 400px;
         display: flex;
         flex-direction: column;
     }
@@ -866,7 +866,7 @@ content: "";
     .partner-div{
         display: flex;
         flex-direction: column;
-        width: 600px;
+        width: 400px;
     }
 
     .partner-div div{
@@ -885,7 +885,7 @@ content: "";
         margin: 0;
         flex-direction: column;
         display: flex;
-        width: 600px;
+        width: 400px;
     }
 
     .terms-policy div{
@@ -896,7 +896,7 @@ content: "";
 
     .contactus{
         border: none;
-        width: 600px;
+        width: 400px;
         height: max-content;
         display: flex;
         flex-direction: column;
@@ -904,7 +904,7 @@ content: "";
 
     .contactus div{
         margin-left: 30px;
-        width: 600px;
+        width: 400px;
         display: flex;
         flex-direction: column;
 
@@ -930,7 +930,7 @@ content: "";
     }
 
     .footer-main-div{
-        width: 600px;
+        width: 400px;
         height: max-content;
         display: flex;
         flex-direction: column;
@@ -957,7 +957,6 @@ content: "";
 
     .whatsapp{
         left: 0;
-        
     }
 
 }
