@@ -1,0 +1,822 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+
+
+.navbar{
+    backdrop-filter: blur(10px);
+    position: fixed;
+    z-index: 1;
+    background:transparent;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 0 30px black;
+}
+
+.hamburger {
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger div{
+    
+    margin: 5px;
+    width: 40px;
+    height: 4px;
+    background-color: black;
+}
+
+.menu-option{
+    float: right;
+    
+}
+
+.menu-option ul{
+    
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-option ul li{
+    
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 20px 30px 0 0;
+    font-family: sans-serif;
+}
+
+.menu-option ul li a{
+    color: yellowgreen;
+    text-decoration: none;
+    transition: 0.4s ease-in;
+}
+#home a{
+    color: blue;
+}
+
+.menu-option ul li a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+.logo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(SIGMA-PNG.png);
+    margin: 5px 10px;
+    float: left;
+    
+    height: 60px;
+    width: 150px;
+}
+
+.logo h1{
+    font-family: sans-serif;
+    margin: 0 8px;
+    color: yellowgreen;
+}
+
+.logo h3{
+    font-family: cursive;
+    color: blueviolet;
+    margin: 0 8px;
+}
+
+
+
+.image-slider {
+    
+    overflow: hidden;
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+  }
+  
+.image-container {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth transition for scrolling effect */
+  }
+  
+  .image-container img {
+    width: 100%; /* Ensures images fill the container */
+    height: auto; /* Maintains aspect ratio */
+  }
+
+.aboutus{
+    z-index: 2;
+    padding: 20px;
+    width: auto;
+    height: 90vh;
+}
+
+.div-4{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    height: 80px;
+}
+
+.div-4 div{
+    background-color: #F7F6BB;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    border: 3px solid yellowgreen;
+    height: 40px;
+    width: 250px;
+    transition: 0.4s ease-out;
+}
+
+.div-4 div:hover{
+    width: 260px;
+    height: 45px;
+    box-shadow: 0 0 20px yellowgreen;
+}
+
+.div-4 div p{
+    font-family: monospace, sans-serif;
+    font-size: 18px;
+}
+
+.aboutus h1{
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.aboutus h3{
+    font-size: 20px;
+    float: right;
+    color: orange;
+}
+
+.aboutus h2{
+    color: crimson;
+    
+}
+
+.image{
+    float: left;
+    height: 70vh;
+    width: 40%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#content{
+    margin: 20px 0 0 0 ;
+    height: 70vh;
+    width: 40%;
+    float: right;
+}
+
+
+.ourplans{
+    background-image: url(6912835.jpg);
+    width: auto;
+    height: 90vh;
+    padding: 15px;
+}
+
+.ourplans h1{
+    margin: 15px 0 0 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+
+#head_plan{
+    text-align: center;
+}
+
+.ourplans h3{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.contains-plan{
+    display: flex;
+    width: 100%;
+    height: 75vh;
+}
+
+.contains-plan div{
+    border-radius: 15px;
+    box-shadow: 0 0 15px yellowgreen;
+    background-color: antiquewhite;
+    margin: auto;
+    border: 1px solid black;
+    height: 33vh;
+    width: 270px;
+    transition: 0.4s ease;
+}
+
+.contains-plan div:hover{
+    height: 60vh;
+    width: 290px;
+    
+}
+
+.contains-plan div h3{
+    
+    font-family: monospace, sans-serif;
+    color: crimson;
+}
+
+.contains-plan div ul{
+    margin-left: 60px;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.contains-plan ul li{
+    margin: auto;
+    font-size: 18px;
+    font-family: monospace, sans-serif;
+}
+
+.contains-plan button{
+    margin-left: 20px;
+    margin-top: 80px;
+    width: 230px;
+    height: 35px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid yellowgreen;
+}
+
+.contains-plan button:hover{
+    box-shadow: 0 0 20px yellowgreen;
+}
+
+.contains-plan button a{
+    font-family: monospace,sans-serif;
+    color: crimson;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+.facility-main{
+    padding: 10px;
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+
+
+.service{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    float: left;
+    
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+.service-div{
+    padding: 10px;
+    float: right;
+    display: flex;
+    
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    
+}
+
+.service-div h1{
+    font-family: monospace, AriaL;
+    text-align: center;
+}
+
+
+
+.service h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.service div{
+    box-shadow: 0 0 20px yellowgreen;
+    border-radius: 15px;
+    background-color: #F7F6BB;
+    padding: 20px;
+    border: 5px solid greenyellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    height: fit-content;
+    width: 200px;
+    transition: 0.4s ease-in-out;
+}
+
+.service div:hover{
+    height: 220px;
+    width: 230px;
+}
+
+.service div h3{
+    color: crimson;
+    text-align: center;
+}
+
+.service div p{
+    margin-top: 20px;
+    font-family: monospace, Arial;
+}
+
+.isp-logo{
+    
+    display: flex;
+}
+
+
+.partner-div{
+    width: auto;
+    height: fit-content;
+
+}
+
+.partner-div div{
+    margin: auto;
+}
+
+.partner-div h1{
+    font-family: monospace, Arial;
+    margin: 20px;
+    text-align: center;
+}
+
+.img1{
+    padding: 10sp;
+    background-repeat: no-repeat;
+    width: 200px;
+    height:100px;
+    background-image: url(ADn.png);
+}
+
+.img2{
+    padding: 10sp;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height:100px;
+    background-image: url(excitel.png);
+}
+
+.img3{
+    padding: 10sp;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 230px;
+    height:100px;
+    background-image: url(gtpl.png);
+}
+
+.img4{
+    padding: 10sp;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 230px;
+    height:100px;
+    background-image: url(zapbytes.jpg);
+}
+
+.terms-policy{
+    display: flex;
+    padding: 40px;
+    width: auto;
+    height: 500px;
+}
+
+.terms-policy div{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.699);
+    border-radius: 20px;
+    background-color: #F7F6BB;
+    height: 100%;
+    overflow: auto;
+    margin: auto;
+    width: 30%;
+    border: 2px solid yellowgreen;
+    padding: 10px;
+}
+
+.terms-policy div::-webkit-scrollbar{
+    width: 0;
+}
+
+.terms-policy div b{
+    color: crimson;
+    font-size: 30px;
+    margin-top: 20px;
+    
+}
+
+.terms-policy div p{
+    margin-bottom: 40px;
+    font-family:  Arial;
+}
+
+.contactus{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.contactus div{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+.contact-form{
+    width: 800px;
+    margin: auto;
+    
+} 
+
+
+.contact-form h1{
+    color: yellowgreen;
+    font-family: monospace, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.contact-form input{
+    margin-left: 90px;
+    margin-top: 20px;
+    background-color: #F7F6BB;
+    font-family: monospace, sans-serif;
+    border-radius: 15px;
+    border: 1px solid yellowgreen;
+    font-size: 23px;
+    padding: 8px;
+    width: 300px;
+    height: 50px;
+}
+
+.contact-form input:focus{
+    box-shadow: 0 0 20px yellowgreen;
+    outline: 2px solid yellowgreen;
+}
+
+.contact-form button{
+    border-radius: 20px;
+    border: 3px solid yellowgreen;
+    
+    margin-top: 80px;
+    width: 500px;
+    height: 60px;
+    transition: 0.4s ease-in-out;
+}
+
+.contact-form button a{
+    color: yellowgreen;
+    font-family: monospace, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.contact-form button:hover{
+    box-shadow: 0 0 15px yellowgreen;
+}
+
+.footer-main-div{
+    display: flex;
+    background-color:#F7F6BB;
+    padding: 10px;
+    height: 25vh;
+    width: auto;
+}
+
+.footer-main-div div{
+    margin: auto;
+    height: 100%;
+    width: auto;
+}
+
+.footer-main-div div h3{
+    color: black;
+    margin: auto;
+    font-family: monospace, sans-serif;
+}
+
+.footer-main-div div ul{
+    margin: auto;
+    
+}
+
+.footer-main-div div ul li{
+    color: brown;
+    list-style-type: none;
+    margin-top: 20px;
+    padding-left: 40px;
+    position: relative;
+    font-family: monospace, sans-serif;
+}
+
+#mobile::before{
+  content: "";
+  background-image: url('phone.png'); /* Specify the path to your custom icon */
+  background-size: cover; /* Adjust the size of the icon */
+  width: 16px; /* Set width of the icon */
+  height: 16px; /* Set height of the icon */
+  position: absolute; /* Position absolutely within the list item */
+  left: 0; /* Position to the start of the list item */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+}
+
+#mail::before{
+    content: "";
+  background-image: url('gmail.png'); /* Specify the path to your custom icon */
+  background-size: cover; /* Adjust the size of the icon */
+  width: 16px; /* Set width of the icon */
+  height: 16px; /* Set height of the icon */
+  position: absolute; /* Position absolutely within the list item */
+  left: 0; /* Position to the start of the list item */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+}
+
+#address::before{
+content: "";
+  background-image: url('address.png'); /* Specify the path to your custom icon */
+  background-size: cover; /* Adjust the size of the icon */
+  width: 16px; /* Set width of the icon */
+  height: 16px; /* Set height of the icon */
+  position: absolute; /* Position absolutely within the list item */
+  left: 0; /* Position to the start of the list item */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+}
+
+.footer-main-div ul li::before{
+    content: "";
+  background-image: url('point.png'); /* Specify the path to your custom icon */
+  background-size: cover; /* Adjust the size of the icon */
+  width: 18px; /* Set width of the icon */
+  height: 18px; /* Set height of the icon */
+  position: absolute; /* Position absolutely within the list item */
+  left: 0; /* Position to the start of the list item */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+}
+
+#dialog_lead_query{
+    box-shadow: 0 0 40px black;
+    border-radius: 20px;
+    background-color: #F7F6BB;
+    flex-direction: column;
+    margin: auto;
+    border: 2px solid yellowgreen;
+    padding: 20px;
+    width: 500px;
+    height: fit-content;
+}
+
+#dialog_lead_query div div{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#dialog_lead_query div div button{
+    font-weight: bold;
+    font-family: monospace, sans-serif;
+    font-size: 15px;
+    width: 200px;
+    background-color: yellowgreen;
+    border: 2px solid yellowgreen;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    transition: 0.3s ease-in-out;
+}
+
+#dialog_lead_query div div button:hover{
+    box-shadow: 0 0 15px black;
+}
+
+#dialog_lead_query div{
+    display: flex;
+    flex-direction: column;
+}
+
+#dialog_lead_query label{
+    margin: 8px;
+    font-family: monospace, sans-serif;
+    font-size: 20px;
+}
+
+#dialog_lead_query select{
+    border: none;
+    outline: 2px solid greenyellow;
+    border-radius: 10px;
+    height: 50px;
+}
+
+#dialog_lead_query input{
+    font-family: monospace, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    outline: 2px solid greenyellow;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.instant-pay{
+    border: 2px solid yellowgreen;
+    border-radius: 10px 0 0 10px;
+    background:transparent;
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    position:fixed;
+    top: 10%; /* Adjust as per your requirement */
+    right: 0; /* Aligns the div to the right */
+    z-index: 1;
+    display: block;
+    
+}
+
+.whatsapp{
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    border-radius: 10px 0 0 10px;
+    background-image: url(whatsapp.png);
+    padding: 15px;
+    position:fixed;
+    top: 85%; /* Adjust as per your requirement */
+    right: 0; /* Aligns the div to the right */
+    z-index: 1;
+    
+}
+
+.instant-pay label a{
+    color: white;
+    text-decoration: none;
+    font-family: monospace,sans-serif;
+    height: 70px;
+    font-size: 20px;
+    padding-left: 30px;
+    
+}
+
+.instant-pay label a::before{
+    margin-left: 10px;
+    content: "";
+  background-image: url('pay.png'); /* Specify the path to your custom icon */
+  background-size: cover; /* Adjust the size of the icon */
+  width: 30px; /* Set width of the icon */
+  height: 30px; /* Set height of the icon */
+  position: absolute; /* Position absolutely within the list item */
+  left: 0; /* Position to the start of the list item */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+}
+
+
+
+.enquiry{
+    border: 2px solid greenyellow;
+    border-radius: 10px 0 0 10px;
+    background:transparent;
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    position:fixed;
+    top: 20%; /* Adjust as per your requirement */
+    right: 0; /* Aligns the div to the right */
+    z-index: 1;
+    
+    
+}
+
+.enquiry label a::before{
+    margin-left: 10px;
+    content: "";
+  background-image: url('router.png'); /* Specify the path to your custom icon */
+  background-size: cover; /* Adjust the size of the icon */
+  width: 30px; /* Set width of the icon */
+  height: 30px; /* Set height of the icon */
+  position: absolute; /* Position absolutely within the list item */
+  left: 0; /* Position to the start of the list item */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+}
+
+.enquiry label a{
+    color: white;
+    text-decoration: none;
+    font-family: monospace,sans-serif;
+    height: 70px;
+    font-size: 20px;
+    padding-left: 30px;
+    
+}
+
+
+
+@media  screen and (max-width:1000px) {
+    .menu-option ul li{
+        font-size: 15px;
+    }
+    
+}
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .menu-option ul{
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+    }
+
+    .navbar{
+        position: relative;
+    }
+
+
+    .div-4{
+        flex-direction: column;
+
+    }
+
+    .div-4 div{
+
+        margin-top: 20px;
+    }
+
+
+    .contains-plan{
+        overflow: auto;
+    }
+
+    .contains-plan div{
+        margin-right: 20px;
+        height: 300px;
+
+    }
+
+    .contains-plan div button{
+        margin-left: 10px;
+    }
+
+    .contactus{
+        flex-direction: column;
+    }
+
+
+    .contact-form input{
+        margin: 10px;
+    }
+
+    .aboutus{
+        display: flex;
+        flex-direction: column;
+    }
+}
+

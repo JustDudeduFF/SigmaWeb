@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Sigma</title>
+</head>
+<body>
+    <dialog id="dialog_lead_query">
+        <div>
+            
+                <label>Plan</label><select id="plan_select"></select>
+                <label>FullName</label><input type="text" placeholder="Your FullName">
+                <label>Contact No.</label><input type="text" placeholder="Mobile No.">
+                <label>Intallation Address</label><input type="text" placeholder="Curernt Address">
+                <label>Other Enquiry</label><input type="text" placeholder="Your Query">
+                <div>
+                    <button style="color: white;" id="generate_query">GENERATE QUERY</button>
+                    <button style="background-color: white;" id="cancel">CANCEL</button>
+                </div>
+            
+        </div>
+    </dialog>
+    <div class="main">
+        <div class="navbar">
+            <!-- Logo -->
+            <div class="logo">
+                
+            </div>
+            <!-- Other Options -->
+            <div class="menu-option">
+                <ul>
+                    <li id="home"><a href="#">Home</a></li>
+                    <li><a href="#aboutus">About</a></li>
+                    <li><a href="#contactus">Contact Us</a></li>
+                    <li><a href="#footer">Carrers</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="https:">Customer Login</a></li>
+                    <li><a href="#"><img src="facebook.png"></a></li>
+                    <li><a href="#"><img src="instagram.png"></a></li>
+                    <li><a href="#"><img src="twitter.png"></a></li>
+                </ul>
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- Image Slider Section -->
+            <div class="whatsapp">
+
+            </div>
+            <div class="enquiry">
+                <label><a href="#ourplans">New Connetion</a></label>
+            </div>
+
+            <div class="instant-pay">
+                <label><a href="#">Quick Recharge</a></label>
+            </div>
+            <section class="sec-imagescroll">
+                <div class="image-slider">
+                    <div class="image-container">
+                        <img src="ryan-hutton-Jztmx9yqjBw-unsplash.jpg" alt="image1">
+                        <img src="sergey-pesterev-JV78PVf3gGI-unsplash.jpg" alt="image2">
+                        <img src="ryan-schroeder-Gg7uKdHFb_c-unsplash.jpg" alt="image3">
+                    </div>
+                </div>
+            </section>
+            <!-- About Section -->
+            <section>
+                <div id="aboutus" class="aboutus">
+                    <h1>OUR STURDINESS</h1>
+                    <div class="div-4">
+                        <div class="st-1"><p>Always Stay with latest specs</p></div>
+                        <div class="st-2"><p>Lighting Speed Technical & Customer Support</p></div>
+                        <div class="st-3"><p>All Services, Regarding Networking</p></div>
+                        <div class="st-4"><p>Your Home Always Connected With Internet</p></div>
+                    </div><br>
+                    
+                    <h3>Our Service, Your Imagination! Let's Change World Tech </h3><br>
+                    <h4>What We Do?</h4>
+                    <h2>Connect Peoples With Internet & Technology</h2>
+                    <div id="image" class="image">
+
+                    </div>
+                    <div id="content">
+                        <p>
+                            Through innovative technologies and visionary strategies, our internet company has transcended boundaries, reshaping the very fabric of our global community. By democratizing access to information and fostering connectivity across continents, we have empowered individuals to transcend geographical limitations and unlock their full potential. Our platforms have catalyzed revolutions in education, commerce, and communication, leveling the playing field for aspiring entrepreneurs and bridging cultural divides. Through our unwavering commitment to progress and inclusivity, we continue to spearhead transformative change, ushering in a new era of interconnectedness where every voice, regardless of origin or background, has the power to shape the world.</p><br><br>
+                        <p>
+                            Imagine a world where connectivity isn't a luxury but a fundamental right, where information flows freely, empowering individuals regardless of their geographic location or socioeconomic status. That's the world our internet company envisions and actively works towards. Through innovative technologies and a commitment to inclusivity, we're bridging gaps, fostering collaboration, and unlocking the vast potential of the digital age. From remote villages to bustling metropolises, our platform is revolutionizing education, commerce, healthcare, and more. By democratizing access to knowledge and opportunities, we're not just changing the world; we're shaping a future where everyone can thrive and contribute to a global community empowered by the limitless possibilities of the internet.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Our Plans Section -->
+            <section id="ourplans">
+                <div class="ourplans">
+                    <h3 id="head_plan">CURRENT PRICE</h3>
+                    <h1>choose your Interested plan</h1><br>
+                    <div class="contains-plan">
+                        <div class="plan-1">
+                            <div id="plan1_div" style="width: auto; height: 30%; border: none; box-shadow: none;"></div><br>
+                            <h3>100mbps</h3>
+                            <ul id="list_plan1">
+                                <li>1 Month@ 499</li>
+                                <li>3+1 Month@ 1799</li>
+                                <li>6+2 Month@ 3399</li>
+                                <li>9+3 Month@ 5699</li>
+                            </ul>
+                            <button id="plan_1"><a>LET'S CONTACT</a></button>
+                        </div>
+                        <div class="plan-2">
+                            <div id="plan2_div" style="width: auto; height: 30%; border: none; box-shadow: none;"></div><br>
+                            <h3>200mbps</h3>
+                            <ul id="list-plan2">
+                                <li>1 Month@ 599</li>
+                                <li>3+1 Month@ 2199</li>
+                                <li>6+2 Month@ 3399</li>
+                                <li>9+3 Month@ 5699</li>
+                            </ul>
+                            <button><a id="plan_2" href="#">LET'S CONTACT</a></button>
+                        </div>
+                        <div class="plan-3">
+                            <div id="plan3_div" style="width: auto; height: 30%; border: none; box-shadow: none;"></div><br>
+                            <h3>300mbps</h3>
+                            <ul id="list-plan3">
+                                <li>1 Month@ 599</li>
+                                <li>3+1 Month@ 2199</li>
+                                <li>6+2 Month@ 3399</li>
+                                <li>9+3 Month@ 5699</li>
+                            </ul>
+                            <button><a id="plan_3" href="#">LET'S CONTACT</a></button>
+                        </div>
+                        <div class="plan-4">
+                            <div id="plan4_div" style="width: auto; height: 30%; border: none; box-shadow: none;"></div><br>
+                            <h3>500mbps</h3>
+                            <ul id="list-plan4">
+                                <li>1 Month@ 599</li>
+                                <li>3+1 Month@ 2199</li>
+                                <li>6+2 Month@ 3399</li>
+                                <li>9+3 Month@ 5699</li>
+                            </ul>
+                            <button><a id="plan_4" href="#">LET'S CONTACT</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Our Facilitys -->
+            <section id="services">
+                <div class="facility-main">
+                    <div class="service">
+                        <h1>We Provide Wide Range of Service For Networking </h1><br>
+                        <div>
+                            <h3>ISP (Internet Service Provider)</h3>
+                            <p>Sigma Network (ISP) is a company that provides web access to businesses and consumers.We Provide Internet For Your Education, Business, Gaming etc.</p>
+                        </div>
+
+                        <div>
+                            <h3>East Delhi Lease line Distributer</h3>
+                            <p>Sigma Network (ISP) is a company that provides web access to businesses and consumers.We Provide Internet For Your Education, Business, Gaming etc.</p>
+                        </div>
+
+                        <div>
+                            <h3>Networking Equipment Reseller</h3>
+                            <p>Sigma Network (ISP) is a company that provides web access to businesses and consumers.We Provide Internet For Your Education, Business, Gaming etc.</p>
+                        </div>
+
+                        <div>
+                            <h3>Provide High Speed FTTH Connections</h3>
+                            <p>Sigma Network (ISP) is a company that provides web access to businesses and consumers.We Provide Internet For Your Education, Business, Gaming etc.</p>
+                        </div>
+                    </div>
+                    <div class="service-div">
+                        <div id="service-animation">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Our Partners -->
+
+            <section>
+                <div class="partner-div">
+                    <h1>OUR ISP PARTNERS</h1>
+                    <div style="width: 150px; height: 150px; background-image: url(server.png); background-position: center; background-size: cover;"></div>
+                    <div class="isp-logo">
+                    <div class="img1"></div>
+                    <div class="img2"></div>
+                    <div class="img3"></div>
+                    <div class="img4"></div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-- Policy and terms and Conditions -->
+
+            <section style="visibility: hidden;" id="terms-policy">
+                <div class="terms-policy">
+                    <div class="t&d">
+                        <b>Terms And Conditions</b>
+                        <p>
+                            “VISITORS TO THIS WEBSITE/APP ARE BOUND BY THE FOLLOWING TERMS AND CONDITIONS (“TERMS”) SO PLEASE READ THE FOLLOWING TERMS CAREFULLY BEFORE CONTINUING TO USE THIS SITE”<br><br>
+                            1. Tariffs/Charges for the plans chosen are to be paid in advance and such charges are not refundable as this is a prepaid service<br><br>
+                            2. No installation charges are applicable on Sigma Networks connection.<br><br>
+                            3. GST @ 18% is not included in the tariff/ charges and is payable over and above the plan charges.<br><br>
+                            4. The Tariff Plans/Offers are subject to Guidelines/Directions/Orders issued by TRAI and/or DoT.<br><br>
+                            5. The Company at any time, shall reserve the right to modify/withdraw this T&amp;C including but limited to tariff plans and display the same on its website without notice to the customer and such posting will be deemed to have been read by the customer.<br><br>
+                            6. Any one-time charges paid to Sigma Networks. at the time of installation are non-refundable.<br><br>
+                            7. The company may extend a refund to the user only for his first payment in case of no-feasibility for building a new connection to the requested address.<br><br>
+                            8. Interest-free security deposit to be refunded only online and not cash, after the return of assets in the same condition as at the time of receipt. The refund will be processed within 60 working days after acceptance of the Optical Network Unit (ONU) by Sigma Networks.<br><br>
+                            9. Refunds are to be processed to the bank account provided at the time of registration or to the bank account/wallet linked to the phone number registered with Sigma Networks. No other bank account is to be used for refunds. Cash and cheques are not to be used for customer refunds.<br><br>
+                            10. The ONU devices provided by Sigma Networks either against a security deposit or as a bundled plan will remain the property of Sigma Networks at all times and the company reserves the right to take it back in case the connection is terminated, surrendered or inactive<br><br>
+                            11. The speed committed under a plan is till the LAN port. Wi-Fi Speed is subject to the customer premise’s in-house coverage &amp; customer premises device performance.<br><br>
+                        </p>
+                    </div>
+                    <div class="p&p">
+                        <b>Privacy Policys</b>
+                        <p>
+                            -This policy covers the way Sigma Networks treats personal information that the Company receives and collects, including information related to Customer’s past use of the Company’s products and services. Personal information means information about Customers which identifies them like Customer’s name, address, e-mail address, phone number etc.<br><br>
+                                        Collection and General Use of Personal Information
+                                        The Company collects personal information when customer registers for the purpose of using Company’s products, when the Customer registers for visit the Company web pages or the pages of certain partners of the Company. The Company may mutually use personal information that is obtained from business partners or other Companies. The Company has the right to deliver the Customer’s information to its business associates, franchisees without referring the same to the Customer.<br><br>
+                                        When the Customer registers with the Company, the Company receives information about the Customer’s name, telephone number, e-mail address, P.O. address, birth date, gender, occupation, industry, and personal interests and any other ID related to the specific service Customer applies for. When the Customer registers with the Company and sign in to Company’s services, the Customer acquires a status of valued one. The Company collects information about Customer’s transactions with the Company and its business partners included. Information is collected about Customer’s use of the demanded products. The Company can use this information to customize its products. The same includes anonymous reporting for internal and external clients.<br><br>
+                                        Sharing and Disclosure of Personal Information
+                                        The Company does not share personal information about the Customer with other parties.<br><br>
+                                        Changes of Privacy Policy<br><br>
+                                        The Company may update this policy and display the same in its website without notice to the Customer and such posting will be deemed to have been read by the the Customer.<br><br>
+                                
+                        </p>
+                    </div>
+                    <div class="r&c">
+                        <b>Refund & Cancellations Policy</b>
+                        <p>
+                            We accept no responsibility for any errors or omissions, or for the results obtained from the use of this information. All information in this web site is provided “AS IS ” with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information, and without warranty of any kind, express or implied, including, but not limited to warranties of performance, merchantability and fitness for a particular purpose. User(s) of this site must hereby acknowledge that any reliance upon any content shall be at their sole risk. The Company reserves the right, in its sole discretion and without any obligation, to make improvements to, or correct any error or omissions in any portion of the Service or the website. The information contained in this website is for general information purposes only. The information is provided by the Company and while We endeavor to keep the information up to date and correct, We make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance You place on such information is therefore strictly at your own risk. In no event will Company be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website. Through this website You are able to link to other websites which are not under the control of The Company. We have no control over the nature, content and availability of those sites. The inclusion of any links or third-party content does not necessarily imply a recommendation or endorse the views expressed within them. Every effort is made to keep the website up and running smoothly. However, the Company takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control. 
+                        </p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Contact us section -->
+            <section style="height: auto;" id="contactus">
+                <div class="contactus">
+                    <div class="contact-form">
+                        <h1>CONTACT FORM</h1>
+                        <input type="text" placeholder="Fullname"><br>
+                        <input type="text" placeholder="Contact No."><br>
+                        <input type="email" placeholder="Email Id"><br>
+                        <input type="text" placeholder="Contact Purpose"><br>
+                        <button><a href="">SUBMIT REQUEST</a></button>
+                    </div>
+                    <div class="contact-animation">
+                        <h1 style="float: right; font-family: monospace, sans-serif;">We Response in Sometime! We appreciate your patience</h1><br>
+                        <p style="float: right; margin-top: 20px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Quos recusandae dolores suscipit a dicta officia soluta impedit blanditiis corrupti voluptas.</p><br>
+                        <div style="width: 700px; height: 60vh; margin-top: 80px;" id="contact-animation"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer Section -->
+            <section id="footer">
+                <div class="footer-main-div">
+                    <div class="support">
+                        <h3>Customer Support</h3>
+                        <ul>
+                            <li id="mobile">9999118971</li>
+                            <li id="mail">sigmanetworks19@gmail.com</li>
+                            <li id="address"><p>4649/121-C, Street No.5, Budh Bazar,<br> New Modern Shahdara, Delhi - 110032</p></li>
+                        </ul>
+                    </div>
+                    <div class="career">
+                        <h3>Careers Options</h3>
+                        <ul>
+                            <li>Field Technician</li>
+                            <li>Customer Services</li>
+                            <li>Technical Support</li>
+                            <li>Sales & Accounts</li>
+                            <li id="policies" style="margin-top: 20px; color: blue; cursor: pointer;"><a href="#terms-policy">Privacy policies</a></li>
+                        </ul>
+                    </div>
+                    <div class="our-service">
+                        <h3>OUR SERVICES</h3>
+                        <ul>
+                            <li>Internet Service Provider</li>
+                            <li>FTTH Broadband Connections</li>
+                            <li>Multiple ISP Distributer</li>
+                            <li>All Networking Equipment Reseller</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js"></script>
+<script>
+
+//Lottie Animation
+const animation_plan_1div = document.getElementById("plan1_div");
+const animation_plan_2div = document.getElementById("plan2_div");
+const animation_plan_3div = document.getElementById("plan3_div");
+const animation_plan_4div = document.getElementById("plan4_div");
+const animation_service = document.getElementById("service-animation");
+const policies = document.getElementById("policies");
+const policy_sec = document.getElementById("terms-policy");
+
+policies.addEventListener('click', function(e){
+    policy_sec.style.visibility = "visible"
+});
+
+//plan selector in dialog
+const plan_select = document.getElementById("plan_select");
+
+//plans list
+const plan_1list = document.getElementById("list_plan1");
+const plan_2list = document.getElementById("list-plan2");
+const plan_3list = document.getElementById("list-plan3");
+const plan_4list = document.getElementById("list-plan4");
+
+
+//contact animation div
+const animation_contact_div = document.getElementById("contact-animation");
+
+//lead query dialog
+const dialog_query = document.getElementById("dialog_lead_query");
+
+//all showing plans on div
+const plan_1 = document.getElementById("plan_1");
+const plan_2 = document.getElementById("plan_2");
+const plan_3 = document.getElementById("plan_3");
+const plan_4 = document.getElementById("plan_4");
+
+//dialog quert buttons
+const cancel_quert = document.getElementById("cancel");
+
+
+//cancel button working
+cancel_quert.addEventListener('click', function(e){
+    e.preventDefault();
+    dialog_query.close();
+});
+
+
+
+//plan-1 click listner
+plan_1.addEventListener('click', function(e){
+    e.preventDefault();
+    var planlist = plan_1list.innerHTML;
+    var options = document.createElement('option');
+    options.innerHTML = planlist;
+    plan_select.appendChild(options);
+    dialog_query.showModal();
+
+});
+
+
+
+//plan-2 click listner
+
+
+const service_animation_data = "service-animation.json";
+const service_animations = lottie.loadAnimation({
+    container: animation_service,
+        render: 'svg',
+        loop: true,
+        autoplay: true,
+        path: service_animation_data
+})
+
+
+
+const animation_contactdata = "contactus2.json";
+const animation_contact = lottie.loadAnimation({
+    container: animation_contact_div,
+        render: 'svg',
+        loop: true,
+        autoplay: true,
+        path: animation_contactdata
+});
+    const animation_plan_1data = "device-animantion.json";
+    const animation_plan_2 = lottie.loadAnimation({
+        container: document.getElementById("plan2_div"),
+        render: 'svg',
+        loop: true,
+        autoplay: true,
+        path: animation_plan_1data
+    });
+
+    const animation_plan_3 = lottie.loadAnimation({
+        container: document.getElementById("plan3_div"),
+        render: 'svg',
+        loop: true,
+        autoplay: true,
+        path: animation_plan_1data
+    });
+
+    const animation_plan_4 = lottie.loadAnimation({
+        container: document.getElementById("plan4_div"),
+        render: 'svg',
+        loop: true,
+        autoplay: true,
+        path: animation_plan_1data
+    });
+    const animation_plan_1 = lottie.loadAnimation({
+        container: document.getElementById("plan1_div"),
+        render: 'svg',
+        loop: true,
+        autoplay: true,
+        path: animation_plan_1data
+    });
+
+
+const animationdiv = document.getElementById("image");
+    const animationdata = "image-bg.json";
+    const animation = lottie.loadAnimation({
+        container: animationdiv,
+        render: 'svg',
+        loop: true,
+        autoplay: true,
+        path: animationdata
+    });
+
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+  const slider = document.querySelector('.image-slider');
+  const images = document.querySelector('.image-container');
+  
+  let currentIndex = 0;
+  const totalImages = images.children.length;
+  const imageWidth = slider.offsetWidth; // Width of the slider
+  
+  function slide() {
+    if (currentIndex === totalImages - 1) {
+      currentIndex = 0;
+    } else {
+      currentIndex++;
+    }
+    images.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
+  }
+  
+  setInterval(slide, 5000); // Change image every 3 seconds
+});
+</script>
+</html>

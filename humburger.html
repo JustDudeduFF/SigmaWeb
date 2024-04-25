@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Hamburger Menu</title>
+    <style>
+        .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 3px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Your Logo</div>
+            <nav>
+                <ul id="nav-links" class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="hamburger" class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+
+    <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', function(e){
+        navLinks.classList.toggle('open')
+    })
+
+
+    
+    </script>
+</body>
+
+</html>
