@@ -918,6 +918,11 @@ content: "";
         text-align: left;
     }
 
+    .contact-form input{
+        margin-left: 0;
+        left: 0;
+    }
+
     .contact-animation div{
         display: none;
     }
