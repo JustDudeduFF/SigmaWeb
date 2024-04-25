@@ -754,19 +754,14 @@ content: "";
 
 
 
-@media  screen and (max-width:1000px) {
-    .menu-option ul li{
-        font-size: 15px;
+@media  screen and (max-width:700px) {
+    .navbar{
+        width: 600px;
     }
-    
-}
+    .main{
+        width: 600px;
+    }
 
-
-
-
-
-
-@media screen and (max-width:800px) {
     .menu-option ul{
         display: none;
     }
@@ -775,48 +770,196 @@ content: "";
         display: flex;
     }
 
+
     .navbar{
         position: relative;
     }
 
+    .aboutus{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+    }
+
+    .aboutus h3{
+        margin-top: 300px;
+    }
 
     .div-4{
+        
+        display: flex;
         flex-direction: column;
-
     }
 
     .div-4 div{
-
-        margin-top: 20px;
+        height: max-content;
+        width: 300px;
+        margin-bottom: 20px;
     }
 
+    .div-4 div p{
+        height:max-content;
+        width: fit-content;
+    }
+
+
+    .image{
+       display: none;
+    }
+
+    .content p{
+    
+        width: 600px;
+    }
 
     .contains-plan{
         overflow: auto;
     }
 
-    .contains-plan div{
+    .contains-plan div {
+        width: 400px;
         margin-right: 20px;
-        height: 300px;
-
     }
 
-    .contains-plan div button{
+    
+
+    .contains-plan button{
+        margin-right: 10px;
         margin-left: 10px;
+        margin-top: 80px;
+        width: 220px;
+        height: 35px;
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid yellowgreen;
     }
 
-    .contactus{
-        flex-direction: column;
-    }
-
-
-    .contact-form input{
-        margin: 10px;
-    }
-
-    .aboutus{
+    .facility-main{
+        width: 600px;
         display: flex;
         flex-direction: column;
     }
+
+    .facility-main div{
+        margin-right: 10px;
+        width: auto;
+        height: max-content;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .facility-main div p{
+        width: auto;
+        height: max-content;
+    }
+
+    .facility-main div:hover{
+        width: auto;
+        height: max-content;
+    }
+
+    .service-div div{
+        display: none;
+    }
+
+    .partner-div{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+    }
+
+    .partner-div div{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .server-img {
+        display: none;
+    }
+
+    .terms-policy{
+        visibility: visible;
+        height: max-content;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        display: flex;
+        width: 600px;
+    }
+
+    .terms-policy div{
+        margin-top: 20px;
+        width: 580px;
+        height: 300px;
+    }
+
+    .contactus{
+        border: none;
+        width: 600px;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactus div{
+        margin-left: 30px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contactus div h1{
+        text-align: left;
+    }
+
+    .contact-animation div{
+        display: none;
+    }
+
+    .contact-animation h1{
+        margin-top: 10px;
+        width: 450px;
+        height: max-content;
+    }
+
+    .contact-animation p{
+        width: 550px;
+        height: max-content;
+    }
+
+    .footer-main-div{
+        width: 600px;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-main-div div{
+        width: 400px;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .instant-pay{
+        left: 0;
+        width: max-content;
+
+    }
+
+    .enquiry{
+        left: 0;
+        width: max-content;
+    }
+
 }
+
+
+
+
+
+
 
