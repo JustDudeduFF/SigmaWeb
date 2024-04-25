@@ -754,7 +754,7 @@ content: "";
 
 
 
-@media  screen and (max-width:700px) {
+@media  screen and (max-width:600px) {
     .navbar{
         width: 400px;
     }
@@ -779,7 +779,7 @@ content: "";
         height: fit-content;
         display: flex;
         flex-direction: column;
-        width: 450px;
+        width: 400px;
     }
 
     .aboutus h3{
@@ -890,7 +890,7 @@ content: "";
 
     .terms-policy div{
         margin-top: 20px;
-        width: 580px;
+        width: 400px;
         height: 300px;
     }
 
@@ -920,12 +920,12 @@ content: "";
 
     .contact-animation h1{
         margin-top: 10px;
-        width: 450px;
+        width: 400px;
         height: max-content;
     }
 
     .contact-animation p{
-        width: 550px;
+        width: 400px;
         height: max-content;
     }
 
