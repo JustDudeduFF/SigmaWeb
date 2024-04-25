@@ -910,6 +910,10 @@ content: "";
 
     }
 
+    .contactus div button{
+        width: 350px;
+    }
+
     .contactus div h1{
         text-align: left;
     }
